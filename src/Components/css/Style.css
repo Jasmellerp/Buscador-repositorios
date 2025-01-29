@@ -1,0 +1,141 @@
+/*Estilo del Searchfield.js*/
+.Search {
+    width: 75%;
+    text-align: center;
+    height: 25px;
+}
+
+.search-header {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.search-header input {
+    width: 90%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search-header button {
+    width: 5%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    /* margin-right: 2em; */
+}
+
+.search-header button svg {
+    height: 1em;
+}
+
+
+/*Estilo de Cards.js*/
+.contCard {
+    background-color: gainsboro;
+    width: 45%;
+    box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-right: 4em;
+    padding-left: 5em;
+
+}
+
+.cardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+
+}
+
+.iconsBoostrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1em;
+    gap: 30px;
+
+    /* float: right; */
+}
+
+
+/*Estilo de TopContributors.js*/
+
+.contributor-card {
+
+    background-color: #b8e4f1;
+    width: 45%;
+    box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    gap: 20px;
+
+}
+
+
+.avatar {
+    height: 8em;
+    width: 8em;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+.titleContributors {
+    justify-self: center;
+    align-self: center;
+}
+
+.avatar {
+    width: 5em;
+    height: 5em;
+}
+
+.contributor-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contributor-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contributor-top .contrast-outline {
+    margin-top: 2em;
+    width: 15%;
+    height: 75px;
+}
+
+.theme-button:is(button, input[type=submit], input[type=button], [role=button]).outline,
+input[type=reset].outline {
+    width: 4em;
+    border: none;
+}
+
+.repositories-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+
+}
